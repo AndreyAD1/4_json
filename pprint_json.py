@@ -11,8 +11,8 @@ def load_data(path):
             return None
 
 
-def pretty_print_json(data):
-    pretty_json_string = json.dumps(data, ensure_ascii=False, indent=4)
+def pretty_print_json(json_info):
+    pretty_json_string = json.dumps(json_info, ensure_ascii=False, indent=4)
     print(pretty_json_string)
 
 

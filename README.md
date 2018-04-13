@@ -1,13 +1,14 @@
 # Prettify JSON
 
-Скрипт получает в качестве параметра путь к файлу с данными в формате
-JSON и выводит их в консоль удобном для чтения виде.
+The script gets path of a file containing JSON data and prints
+the data in a convenient format.
 
 # Quickstart
 
-Скрипт требует для своей работы установленного интерпретатора Python версии 3.5.
-Для запуска скрипта в качестве обязательного параметра нужно указать путь к файлу с данными.
+The script requires Python v3.5. A path of file containing JSON data 
+is the positional argument of the script.
 
+To run script on Linux:
 ```bash
 
 $ python pprint_json.py test.json
@@ -22,6 +23,7 @@ $ python pprint_json.py test.json
 ]
 
 ```
+Windows usage is the same.
 
 # Project Goals
 
