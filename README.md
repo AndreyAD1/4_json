@@ -27,4 +27,4 @@ Windows usage is the same.
 
 # Project Goals
 
-The code is written for educational purposes. Training course for web-developers - [DEVMAN.org](https://devman.org)
+The code was written for educational purposes. Training course for web-developers - [DEVMAN.org](https://devman.org)
