@@ -5,8 +5,8 @@ import argparse
 def load_data(path):
     with open(path, 'r', encoding='utf-8') as data_file:
         try:
-            data = json.load(data_file)
-            return data
+            file_content = json.load(data_file)
+            return file_content
         except json.JSONDecodeError:
             return None
 
