@@ -1,17 +1,25 @@
 # Prettify JSON
 
-[TODO. There will be project description]
+Скрипт получает в качестве параметра путь к файлу с данными в формате
+JSON и выводит их в консоль удобном для чтения виде.
 
 # Quickstart
 
-[TODO]
-
-Example of script launch on Linux, Python 3.5:
+Скрипт требует для своей работы установленного интерпретатора Python версии 3.5.
+Для запуска скрипта в качестве обязательного параметра нужно указать путь к файлу с данными.
 
 ```bash
 
-$ python pprint_json.py <path to file>
-# TODO add output example
+$ python pprint_json.py test.json
+[
+    {
+        1: 2,
+        3: 4
+    },
+    {
+        5:6
+    }
+]
 
 ```
 
